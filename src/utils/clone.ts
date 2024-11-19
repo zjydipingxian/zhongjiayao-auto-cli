@@ -56,7 +56,6 @@ export const clone = async (
     log.info(`${chalk.yellow(`${npm}`)} install`)
     log.info(`${chalk.yellow(`${npm}`)} run dev`)
   } catch (error) {
-    console.log('🚀 ~ error:', error)
     log.error(chalk.red(error))
   }
 }

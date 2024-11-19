@@ -7,11 +7,6 @@ export enum UNICODE {
 }
 
 // 读取 package.json
-console.log(
-  "🚀 ~ path.resolve(__dirname, '../package.json'):",
-  path.resolve(__dirname, '../package.json')
-)
-
 export const pkg = fs.readJSONSync(path.resolve(__dirname, '../package.json'))
 
 /**
