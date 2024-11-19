@@ -10,7 +10,9 @@ import log from '../utils/log'
 const checkLatestVersion = async () => {
   const npm = await npmType
   // 同步执行 获取最新版本号   npm view xxxx version
-  const latestVersion = '0.0.2'
+  const latestVersion = execSync(`${npm} view ${PKG_NAME} version`)
+    .toString('utf-8')
+    .trim()
 
   if (PKG_VERSION === latestVersion) return null
 
