@@ -50,6 +50,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zjydipingxian/zhongjiayao-fe-spec.git"
+    "url": "https://github.com/zjydipingxian/zhongjiayao-auto-cli.git"
+  },
+  "homepage": "https://github.com/zjydipingxian/zhongjiayao-auto-cli.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
